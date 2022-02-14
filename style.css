@@ -107,7 +107,11 @@ p
 {
      h1
      {
-          font-size: 4rem;
+          font-size: 3rem;
+     }
+     h3,p
+     {
+          font-size: 1rem;
      }
      #title
      {
