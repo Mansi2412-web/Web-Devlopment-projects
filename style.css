@@ -1,0 +1,132 @@
+/*Html elements*/
+h1
+{
+     font-family: 'Montserrat', sans-serif;
+     font-weight: 600;
+     font-size: 5rem;
+}
+h3
+{
+     font-size: 1.3rem;
+}
+h4
+{
+     color: rgb(97, 95, 95);
+     font-family: 'Montserrat', sans-serif;
+     font-weight: 600;
+     font-size: 1.2rem;
+     width: 75%;
+     margin: 0 auto;
+}
+p
+{
+     font-size: 1.2rem;
+     font-weight: 500;
+}
+.container-fluid
+{
+     padding: 7% 15%;
+}
+
+/*Title Section*/
+#title
+{
+     background-color: #1FAB89;
+     color: #fff;
+     line-height: 2.5rem;
+     font-family: 'Montserrat', sans-serif;
+     font-weight: 400;
+}
+/*Navbar*/
+.style-nav
+{
+     font-size: 1.2rem;
+     margin: 0 15%;
+}
+.nav-item
+{
+     margin: 5px 10px;
+}
+.textbox
+{
+     margin-bottom: 15px;
+     width: 60%;
+}
+.btn-style
+{
+     margin: 10px 0 0;
+}
+.title-img
+{
+     position: relative;
+}
+.img-logo
+{
+     width: 70%;
+     position: absolute;
+     right: 8%;
+}
+
+/*Section - Instruction*/
+#instruction
+{
+     background-color: #D7FBE8;
+     line-height: 2.5rem;
+     text-align: center;
+}
+
+.icon
+{
+     width: 20%;
+     margin-bottom: 1.2rem;
+}
+
+/*About Section*/
+#about
+{
+     background-color: #1FAB89;
+     color: #fff;
+     font-family: 'Montserrat', sans-serif;
+     line-height: 2rem;
+}
+.about-heading
+{
+     font-size: 3.5rem;
+     margin: 15px 0;
+}
+
+/*Footer Section*/
+#footer
+{
+     background-color: #D7FBE8 ;
+     text-align: center;
+     font-family: 'Montserrat', sans-serif;
+}
+
+@media (max-width : 1028px)
+{
+     h1
+     {
+          font-size: 4rem;
+     }
+     #title
+     {
+          text-align: center;
+          
+     }
+     .img-logo
+     {
+          position: static;
+          width: 40%;
+          padding-top: 4%;
+     }
+     .icon
+     {
+          width: 15%;
+          padding-top: 10px;
+     }
+     .nav-item
+     {
+          text-align: left;
+     }
+}
