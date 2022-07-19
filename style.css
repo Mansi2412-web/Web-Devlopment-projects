@@ -46,6 +46,7 @@ p
 .nav-item
 {
      margin: 5px 10px;
+     
 }
 .textbox
 {
@@ -56,15 +57,20 @@ p
 {
      margin: 10px 0 0;
 }
+.btn-style:hover{
+     border: 2px solid white;
+     background-color: rgb(48, 46, 46);
+}
 .title-img
 {
      position: relative;
 }
 .img-logo
 {
-     width: 70%;
+     width: 50%;
      position: absolute;
-     right: 8%;
+     right: 10%;
+     
 }
 
 /*Section - Instruction*/
@@ -88,6 +94,7 @@ p
      color: #fff;
      font-family: 'Montserrat', sans-serif;
      line-height: 2rem;
+     text-align: center;
 }
 .about-heading
 {
@@ -123,6 +130,7 @@ p
           position: static;
           width: 40%;
           padding-top: 4%;
+          padding-right: 3%;
      }
      .icon
      {
