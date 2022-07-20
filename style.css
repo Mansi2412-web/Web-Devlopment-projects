@@ -56,15 +56,19 @@ p
 {
      margin: 10px 0 0;
 }
+.btn-style:hover{
+     border: 2px solid white;
+     background-color: rgb(31, 30, 34);
+}
 .title-img
 {
      position: relative;
 }
 .img-logo
 {
-     width: 70%;
+     width: 50%;
      position: absolute;
-     right: 8%;
+     right: 10%;
 }
 
 /*Section - Instruction*/
@@ -88,6 +92,7 @@ p
      color: #fff;
      font-family: 'Montserrat', sans-serif;
      line-height: 2rem;
+     text-align: center;
 }
 .about-heading
 {
